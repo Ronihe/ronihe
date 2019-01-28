@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import NavBar from './NavBar';
 import Routes from './Routes';
+import Contact from './Contact';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="App animated fadeIn">
         <NavBar />
         <Routes />
+        <Contact />
       </div>
     );
   }
