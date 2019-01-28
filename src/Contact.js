@@ -25,7 +25,7 @@ class Contact extends Component {
         <Links>
           <Link href="www" target="_blank" alt="github">
             {' '}
-            <i class="fab fa-github" />
+            <i class="fab fa-github animated SlideOutUp" />
           </Link>
           <Link href="www" target="_blank" alt="LinkedIn">
             <i class="fab fa-linkedin-in" />

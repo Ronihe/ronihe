@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
+import Contact from './Contact';
 
 // style the nav
 const Wrapper = styled.nav`
@@ -42,8 +43,11 @@ class NavBar extends Component {
             {' '}
             Portfolio{' '}
           </NavLink>
-
-          <StyledA style={{ textDecoration: 'none' }} href="@" target="_blank">
+          <StyledA
+            style={{ textDecoration: 'none' }}
+            href="https://medium.com/me/stories/public"
+            target="_blank"
+          >
             {' '}
             Blog{' '}
           </StyledA>

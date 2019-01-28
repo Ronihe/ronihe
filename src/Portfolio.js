@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import coding from './img/coding.jpg';
+
 const Header = styled.header`
   max-width: 80%;
   margin-top: 0px;
@@ -21,15 +23,17 @@ const PortfolioList = styled.section`
   flex-flow: row wrap;
   justify-content: space-around;
 `;
-const Project = styled.div`
+const Project = styled.a`
   align-items: center;
   justify-content: center;
   list-style: none;
   padding: 2.074em;
+  color: black;
+  textdecoration: 'none';
 `;
 
 const Img = styled.img`
-  width: 150px
+  width: 300px
   height: auto;
   box-shadow: 0 3px 3px 2px rgba(174,174,179,0.8);
   border: 1px solid transparent;
@@ -50,39 +54,68 @@ class Portfolio extends Component {
         </Header>
 
         <PortfolioList>
-          <Project>
-            Placeholder
-            <Img src="" alt="" />
+          <Project
+            href="https://www.youtube.com/"
+            target="_blank"
+            style={{ textDecoration: 'none' }}
+          >
+            <h3>Microblog</h3>
+            <Img src={coding} alt="Microblog" />
+            <p>tech stack: react redux</p>
           </Project>
-          <Project>
-            {' '}
-            Placeholder
-            <Img src="" alt="" />
+          <Project
+            style={{ textDecoration: 'none' }}
+            href="https://www.youtube.com/"
+            target="_blank"
+          >
+            <h3>Microblog</h3>
+            <Img src={coding} alt="Microblog" />
+            <p>tech stack: react redux</p>
           </Project>
-          <Project>
-            {' '}
-            Placeholder
-            <Img src="" alt="" />
+          <Project
+            href="https://www.youtube.com/"
+            target="_blank"
+            style={{ textDecoration: 'none' }}
+          >
+            <h3>Microblog</h3>
+            <Img src={coding} alt="Microblog" />
+            <p>tech stack: react redux</p>
           </Project>
-          <Project>
-            {' '}
-            Placeholder
-            <Img src="" alt="" />
+          <Project
+            href="https://www.youtube.com/"
+            target="_blank"
+            style={{ textDecoration: 'none' }}
+          >
+            <h3>Microblog</h3>
+            <Img src={coding} alt="Microblog" />
+            <p>tech stack: react redux</p>
           </Project>
-          <Project>
-            {' '}
-            Placeholder
-            <Img src="" alt="" />
+          <Project
+            href="https://www.youtube.com/"
+            target="_blank"
+            style={{ textDecoration: 'none' }}
+          >
+            <h3>Microblog</h3>
+            <Img src={coding} alt="Microblog" />
+            <p>tech stack: react redux</p>
           </Project>
-          <Project>
-            {' '}
-            Placeholder
-            <Img src="" alt="" />
+          <Project
+            href="https://www.youtube.com/"
+            target="_blank"
+            style={{ textDecoration: 'none' }}
+          >
+            <h3>Microblog</h3>
+            <Img src={coding} alt="Microblog" />
+            <p>tech stack: react redux</p>
           </Project>
-          <Project>
-            {' '}
-            Placeholder
-            <Img src="" alt="" />
+          <Project
+            href="https://www.youtube.com/"
+            target="_blank"
+            style={{ textDecoration: 'none' }}
+          >
+            <h3>Microblog</h3>
+            <Img src={coding} alt="Microblog" />
+            <p>tech stack: react redux</p>
           </Project>
         </PortfolioList>
       </main>
