@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import coding from './img/coding.jpg';
-import Contact from './Contact';
 
 const Wrapper = styled.div`
   margin-bottom: 8.5em;
