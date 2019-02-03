@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  padding-bottom: 1.5em;
+  padding-top: 1.728em;
   position: relative;
 `;
 const Links = styled.div`
@@ -16,6 +16,15 @@ const Link = styled.a`
   margin-right: 1.2em;
   padding-bottom: 0;
   text-decoration: none;
+
+  i {
+    transform: translateY(0);
+    transition: transform 0.2s ease;
+  }
+
+  :hover i {
+    transform: translateY(-20px);
+  }
 `;
 
 class Contact extends Component {
@@ -24,7 +33,6 @@ class Contact extends Component {
       <Wrapper>
         <Links>
           <Link href="www" target="_blank" alt="github">
-            {' '}
             <i class="fab fa-github animated SlideOutUp" />
           </Link>
           <Link href="www" target="_blank" alt="LinkedIn">
