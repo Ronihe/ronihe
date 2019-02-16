@@ -74,9 +74,7 @@ class Home extends Component {
           </P>
           <P>
             If any of the above interest you,&nbsp;
-            <MailTo href="mailto:laurenicolesmith@gmail.com">
-              let's chat.
-            </MailTo>
+            <MailTo href="mailto:herongrong2011@gmail.com">let's chat.</MailTo>
           </P>
         </Bio>
 
