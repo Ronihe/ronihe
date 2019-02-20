@@ -85,8 +85,9 @@ class NavBar extends Component {
 
           <a
             style={{ textDecoration: 'none', color: '#83558a' }}
-            href="##"
+            href="https://docs.google.com/document/d/1wgiQESxoRdhFhbw_FV1GdobHrkXJVvKCHd96yV7LqlY/edit?usp=sharing"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <NavButton>Resume</NavButton>
           </a>

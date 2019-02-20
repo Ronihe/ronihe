@@ -67,7 +67,7 @@ class Home extends Component {
           <P>
             👋 I am an motivated software engineer and Licensed CPA with years
             of experience in accounting and business operation. Worked closely
-            with Engineering teams developing business software.{' '}
+            with Engineering teams developing business softwares.{' '}
           </P>
 
           <P>
