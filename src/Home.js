@@ -62,16 +62,22 @@ class Home extends Component {
       <Wrapper className="animated fadeIn">
         <Bio>
           <P>
-            {/* // eslint-disable-next-line */}
-            👋 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
-            fuga aperiam cum totam fugit tempora delectus dolores, aut
-            praesentium nostrum voluptatibus sequi labore consequatur magnam
-            cupiditate sunt porro exercitationem reprehenderit!
+            👋 I am an motivated software engineer and Licensed CPA with years
+            of experience in accounting and business operation. Worked closely
+            with Engineering teams developing business software.{' '}
           </P>
+
           <P>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque fuga
-            aperiam cum totam fugit tempora delectus dolores, aut praesentium
-            nostrum voluptatibus.
+            Experienced in Javascript, Python, Git, React, Redux, React Native,
+            Flask, PostgreSQL, Node.js, Express, SQL, Git, detox. Highly
+            self-driven and really eager to learn new technologies and skill
+            sets
+          </P>
+
+          <P>
+            I just graduated from{' '}
+            <a href=" https://www.rithmschool.com/">Rithm School</a>. I am
+            looking for a full-time software engineer job now.
           </P>
           <P>
             If any of the above interest you,&nbsp;

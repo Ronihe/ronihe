@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import coding from './img/coding.jpg';
 import microblog from './img/microblog.png';
 import groupmuse from './img/groupmuse.png';
+import libellis from './img/libellis.png';
 // import coding from './img/coding.jpg';
 
 const Header = styled.header`
@@ -63,17 +64,46 @@ class Portfolio extends Component {
         </Header>
 
         <Header>
-          <H2>Company project</H2>
+          <H2>Company Project</H2>
         </Header>
         <PortfolioList>
-          <Project
-            href="https://itunes.apple.com/us/app/groupmuse/id942675649"
-            target="_blank"
-            style={{ textDecoration: 'none' }}
-          >
-            <h3>Groupmuse</h3>
-            <Img src={groupmuse} alt="groupmuse" />
+          <Project>
+            <a
+              href="https://itunes.apple.com/us/app/groupmuse/id942675649"
+              target="_blank"
+              style={{ textDecoration: 'none' }}
+            >
+              <h3 style={{ color: 'black' }}>Groupmuse</h3>
+              <Img src={groupmuse} alt="groupmuse" />
+            </a>
             <p>tech stack: React-Native Redux</p>
+          </Project>
+          <Project>dfk</Project>
+        </PortfolioList>
+
+        <Header>
+          <H2>Side Project</H2>
+        </Header>
+        <PortfolioList>
+          <Project>
+            <a href="www" target="_blank" style={{ textDecoration: 'none' }}>
+              <h3 style={{ color: 'black' }}>Libellis</h3>
+              <Img src={libellis} alt="Libellis" />
+            </a>
+            <p>tech stack: React Redux</p>
+            <li className="list-group-item text-center">
+              <a
+                href="https://github.com/libellis"
+                style={{ textDecoration: 'none', color: 'black' }}
+              >
+                <i
+                  className="fab fa-github-square fa-2x"
+                  title="GitHub"
+                  alt="github"
+                />
+                GitHub Repo{' '}
+              </a>
+            </li>
           </Project>
           <Project>dfk</Project>
         </PortfolioList>
@@ -82,102 +112,6 @@ class Portfolio extends Component {
           <H2>School Projects</H2>
         </Header>
         <PortfolioList>
-          <Project>
-            <a
-              href="https://ronismicroblog.herokuapp.com/"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <h3 style={{ color: 'black' }}>Microblog</h3>
-              <Img src={microblog} alt="Microblog" />
-            </a>
-            <p>tech stack: React Redux</p>
-            <li className="list-group-item text-center">
-              <a
-                href="https://github.com/Ronihe/microblog"
-                style={{ textDecoration: 'none', color: 'black' }}
-              >
-                <i
-                  className="fab fa-github-square fa-2x"
-                  title="GitHub"
-                  alt="github"
-                />
-                GitHub Repo{' '}
-              </a>
-            </li>
-          </Project>
-          <Project>
-            <a
-              href="https://ronismicroblog.herokuapp.com/"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <h3 style={{ color: 'black' }}>Microblog</h3>
-              <Img src={microblog} alt="Microblog" />
-            </a>
-            <p>tech stack: React Redux</p>
-            <li className="list-group-item text-center">
-              <a
-                href="https://github.com/Ronihe/microblog"
-                style={{ textDecoration: 'none', color: 'black' }}
-              >
-                <i
-                  className="fab fa-github-square fa-2x"
-                  title="GitHub"
-                  alt="github"
-                />
-                GitHub Repo{' '}
-              </a>
-            </li>
-          </Project>
-          <Project>
-            <a
-              href="https://ronismicroblog.herokuapp.com/"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <h3 style={{ color: 'black' }}>Microblog</h3>
-              <Img src={microblog} alt="Microblog" />
-            </a>
-            <p>tech stack: React Redux</p>
-            <li className="list-group-item text-center">
-              <a
-                href="https://github.com/Ronihe/microblog"
-                style={{ textDecoration: 'none', color: 'black' }}
-              >
-                <i
-                  className="fab fa-github-square fa-2x"
-                  title="GitHub"
-                  alt="github"
-                />
-                GitHub Repo{' '}
-              </a>
-            </li>
-          </Project>
-          <Project>
-            <a
-              href="https://ronismicroblog.herokuapp.com/"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <h3 style={{ color: 'black' }}>Microblog</h3>
-              <Img src={microblog} alt="Microblog" />
-            </a>
-            <p>tech stack: React Redux</p>
-            <li className="list-group-item text-center">
-              <a
-                href="https://github.com/Ronihe/microblog"
-                style={{ textDecoration: 'none', color: 'black' }}
-              >
-                <i
-                  className="fab fa-github-square fa-2x"
-                  title="GitHub"
-                  alt="github"
-                />
-                GitHub Repo{' '}
-              </a>
-            </li>
-          </Project>
           <Project>
             <a
               href="https://ronismicroblog.herokuapp.com/"
