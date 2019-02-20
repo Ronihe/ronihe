@@ -50,6 +50,9 @@ const Profile = styled.img`
 const P = styled.p`
   padding: 0 5.805em 1em 5.805em;
   line-height: 1.728em;
+  @media screen and (max-width: 530px) {
+    padding: 0 1em 0.5em 1em;
+  }
 `;
 class Home extends Component {
   constructor(props) {

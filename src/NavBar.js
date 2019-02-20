@@ -21,7 +21,7 @@ const PageTitle = styled.h1`
 const PageLinks = styled.div`
   padding-bottom: 50px;
   @media screen and (max-width: 530px) {
-    max-width: 35%;
+    max-width: 20%;
   }
 `;
 const NavButton = styled.button`
