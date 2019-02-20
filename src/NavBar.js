@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import Contact from './Contact';
 import logo from './img/coffee.png';
 
 // style the nav
@@ -80,6 +78,7 @@ class NavBar extends Component {
             style={{ textDecoration: 'none', color: '#83558a' }}
             href="https://medium.com/me/stories/public"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <NavButton>Blog</NavButton>
           </a>
@@ -98,7 +97,5 @@ class NavBar extends Component {
 }
 
 NavBar.defaultProps = {};
-
-NavBar.propTypes = {};
 
 export default NavBar;

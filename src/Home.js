@@ -62,6 +62,7 @@ class Home extends Component {
       <Wrapper className="animated fadeIn">
         <Bio>
           <P>
+            {/* // eslint-disable-next-line */}
             👋 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
             fuga aperiam cum totam fugit tempora delectus dolores, aut
             praesentium nostrum voluptatibus sequi labore consequatur magnam

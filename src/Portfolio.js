@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import coding from './img/coding.jpg';
+import microblog from './img/microblog.png';
+// import coding from './img/coding.jpg';
 
 const Header = styled.header`
   max-width: 80%;
@@ -55,12 +57,12 @@ class Portfolio extends Component {
 
         <PortfolioList>
           <Project
-            href="https://www.youtube.com/"
+            href="https://ronismicroblog.herokuapp.com/"
             target="_blank"
             style={{ textDecoration: 'none' }}
           >
             <h3>Microblog</h3>
-            <Img src={coding} alt="Microblog" />
+            <Img src={microblog} alt="Microblog" />
             <p>tech stack: react redux</p>
           </Project>
           <Project
