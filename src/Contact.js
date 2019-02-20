@@ -32,16 +32,24 @@ class Contact extends Component {
     return (
       <Wrapper>
         <Links>
-          <Link href="www" target="_blank" alt="github">
+          <Link href="https://github.com/Ronihe" target="_blank" alt="github">
             <i class="fab fa-github animated SlideOutUp" />
           </Link>
-          <Link href="www" target="_blank" alt="LinkedIn">
+          <Link
+            href="https://www.linkedin.com/in/ronihe/"
+            target="_blank"
+            alt="LinkedIn"
+          >
             <i class="fab fa-linkedin-in" />
           </Link>
-          <Link href="www" target="_blank" alt="twitter">
+          <Link
+            href="https://twitter.com/herongrong2011"
+            target="_blank"
+            alt="twitter"
+          >
             <i class="fab fa-twitter" />
           </Link>
-          <Link href="www" target="_blank" alt="AngelList">
+          <Link href="https://angel.co/ronihe" target="_blank" alt="AngelList">
             <i class="fab fa-angellist" />
           </Link>
         </Links>
