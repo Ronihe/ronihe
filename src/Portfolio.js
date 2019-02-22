@@ -24,8 +24,12 @@ const SubHeader = styled.header`
 const H2 = styled.h2`
   font-size: 1.728em;
 `;
-const P = styled.p`
+const P = styled.h4`
   line-height: 1.728em;
+  margin-top: 0px;
+  @media (min-width: 768px) {
+    margin-top: 80px;
+  }
 `;
 
 const PortfolioList = styled.section`
@@ -39,7 +43,7 @@ const ProjectPair = styled.div`
   max-width: 80%;
   display: flex;
   flex-direction: column;
-  @media (min-width: 576px) {
+  @media (min-width: 768px) {
     flex-direction: row;
   }
 `;
@@ -68,11 +72,11 @@ class Portfolio extends Component {
       <main className="animated fadeIn">
         <Header>
           <H2>Portfolio</H2>
-          <P>
+          <p style={{ lineHeight: '1.728em' }}>
             One company project, which is a react native mobile app for IOS and
             Android. we did about 30 apps during the My side prject, one android
             mobile app.
-          </P>
+          </p>
         </Header>
 
         <SubHeader>
@@ -91,12 +95,12 @@ class Portfolio extends Component {
               </a>
               <p>tech stack: React-Native Redux</p>
             </Project>
-            <Project>
+            <P>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               totam dolor magni iusto tempora, consequuntur numquam illo ab
               exercitationem impedit optio, dolore laboriosam fuga quaerat
               perferendis dolorum dicta laborum nostrum.
-            </Project>
+            </P>
           </ProjectPair>
         </PortfolioList>
 
