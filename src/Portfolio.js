@@ -77,11 +77,11 @@ class Portfolio extends Component {
       <main className="animated fadeIn">
         <Header>
           <H2>Portfolio</H2>
-          <p style={{ lineHeight: '1.728em' }}>
+          <H4>
             One company project, which is a react native mobile app for IOS and
             Android. we did about 30 apps during the My side prject, one android
             mobile app.
-          </p>
+          </H4>
         </Header>
 
         <SubHeader>
@@ -98,9 +98,23 @@ class Portfolio extends Component {
                 <h3 style={{ color: 'black' }}>Groupmuse</h3>
                 <Img src={groupmuse} alt="groupmuse" />
               </a>
-              <p>tech stack: React-Native Redux</p>
+              <li className="list-group-item text-center">
+                <a
+                  href="https://itunes.apple.com/us/app/groupmuse/id942675649"
+                  style={{ textDecoration: 'none', color: 'black' }}
+                  target="_blank"
+                >
+                  <i
+                    className="fab fa-apple fa-2x"
+                    title="GitHub"
+                    alt="github"
+                  />
+                  IOS Application
+                </a>
+              </li>
             </Project>
             <ProjectDescription>
+              <p>tech stack: React-Native Redux</p>
               <H4>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Expedita totam dolor magni iusto tempora, consequuntur numquam
@@ -173,11 +187,11 @@ class Portfolio extends Component {
                 <h3 style={{ color: 'black' }}>Microblog</h3>
                 <Img src={microblog} alt="Microblog" />
               </a>
-              <p>tech stack: React Redux</p>
               <li className="list-group-item text-center">
                 <a
                   href="https://github.com/Ronihe/microblog"
                   style={{ textDecoration: 'none', color: 'black' }}
+                  target="_blank"
                 >
                   <i
                     className="fab fa-github-square fa-2x"
@@ -187,8 +201,23 @@ class Portfolio extends Component {
                   GitHub Repo{' '}
                 </a>
               </li>
+              <li className="list-group-item text-center">
+                <a
+                  href="https://ronismicroblog.herokuapp.com/"
+                  style={{ textDecoration: 'none', color: 'black' }}
+                  target="_blank"
+                >
+                  <i
+                    className="fas fa-globe fa-2x"
+                    title="GitHub"
+                    alt="github"
+                  />
+                  Live Site{' '}
+                </a>
+              </li>
             </Project>
             <ProjectDescription>
+              <H4>Tech Stack: React Redux</H4>
               <H4>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Expedita totam dolor magni iusto tempora, consequuntur numquam
