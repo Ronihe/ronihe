@@ -20,18 +20,20 @@ const PageTitle = styled.h1`
 `;
 const PageLinks = styled.div`
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
   @media screen and (max-width: 530px) {
-    max-width: 20%;
+    flex-direction: column;
   }
 `;
-const NavButton = styled.button`
-  margin-left: 1.728em;
+const NavButton = styled.div`
+  margin: 0 1.5em;
   border: 0;
   border-radius: 0;
   padding: 0;
   color: #83558a;
   font-family: 'Rubik', sans-serif;
-  font-size: 1em;
+  font-size: 13px;
 `;
 const Logo = styled.img`
   width: 8%;
