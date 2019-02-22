@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import coding from './img/coding.jpg';
 import microblog from './img/microblog.png';
 import groupmuse from './img/groupmuse.png';
 import libellis from './img/libellis.png';
@@ -14,6 +13,13 @@ const Header = styled.header`
   margin-left: auto;
   padding-bottom: 2.074em;
 `;
+const SubHeader = styled.header`
+  max-width: 80%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: -35px;
+  margin-left: auto;
+`;
 
 const H2 = styled.h2`
   font-size: 1.728em;
@@ -23,21 +29,27 @@ const P = styled.p`
 `;
 
 const PortfolioList = styled.section`
+  max-width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  margin-bottom: 2.074em;
 `;
-
+const ProjectPair = styled.div`
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 576px) {
+    flex-direction: row;
+  }
+`;
 const Project = styled.div`
   align-items: center;
   justify-content: center;
   list-style: none;
-  padding: 2.074em;
+  padding: 2.074em 2.074em 0 2.074em;
   color: black;
-  textdecoration: 'none';
-  :hover {
-    /* animation-name: 'rubberBand'; */
-  }
+  'textdecoration': 'none';
 `;
 
 const Img = styled.img`
@@ -63,27 +75,34 @@ class Portfolio extends Component {
           </P>
         </Header>
 
-        <Header>
+        <SubHeader>
           <H2>Company Project</H2>
-        </Header>
+        </SubHeader>
         <PortfolioList>
-          <Project>
-            <a
-              href="https://itunes.apple.com/us/app/groupmuse/id942675649"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <h3 style={{ color: 'black' }}>Groupmuse</h3>
-              <Img src={groupmuse} alt="groupmuse" />
-            </a>
-            <p>tech stack: React-Native Redux</p>
-          </Project>
-          <Project>dfk</Project>
+          <ProjectPair>
+            <Project>
+              <a
+                href="https://itunes.apple.com/us/app/groupmuse/id942675649"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <h3 style={{ color: 'black' }}>Groupmuse</h3>
+                <Img src={groupmuse} alt="groupmuse" />
+              </a>
+              <p>tech stack: React-Native Redux</p>
+            </Project>
+            <Project>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              totam dolor magni iusto tempora, consequuntur numquam illo ab
+              exercitationem impedit optio, dolore laboriosam fuga quaerat
+              perferendis dolorum dicta laborum nostrum.
+            </Project>
+          </ProjectPair>
         </PortfolioList>
 
-        <Header>
+        <SubHeader>
           <H2>Side Project</H2>
-        </Header>
+        </SubHeader>
         <PortfolioList>
           <Project>
             <a href="www" target="_blank" style={{ textDecoration: 'none' }}>
@@ -108,9 +127,9 @@ class Portfolio extends Component {
           <Project>dfk</Project>
         </PortfolioList>
 
-        <Header>
+        <SubHeader>
           <H2>School Projects</H2>
-        </Header>
+        </SubHeader>
         <PortfolioList>
           <Project>
             <a
