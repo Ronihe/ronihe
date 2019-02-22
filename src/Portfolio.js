@@ -24,11 +24,16 @@ const SubHeader = styled.header`
 const H2 = styled.h2`
   font-size: 1.728em;
 `;
-const P = styled.h4`
-  line-height: 1.728em;
+
+const ProjectDescription = styled.div`
   margin-top: 0px;
   @media (min-width: 768px) {
-    margin-top: 80px;
+    margin-top: 65px;
+  }
+`;
+
+const H4 = styled.h4`
+  line-height: 1.728em;
   }
 `;
 
@@ -95,12 +100,20 @@ class Portfolio extends Component {
               </a>
               <p>tech stack: React-Native Redux</p>
             </Project>
-            <P>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
-              totam dolor magni iusto tempora, consequuntur numquam illo ab
-              exercitationem impedit optio, dolore laboriosam fuga quaerat
-              perferendis dolorum dicta laborum nostrum.
-            </P>
+            <ProjectDescription>
+              <H4>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Expedita totam dolor magni iusto tempora, consequuntur numquam
+                illo ab exercitationem impedit optio, dolore laboriosam fuga
+                quaerat perferendis dolorum dicta laborum nostrum.
+              </H4>
+              <H4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                velit. Nihil architecto hic distinctio cupiditate, alias
+                provident quis perspiciatis blanditiis libero recusandae quia
+                minus nemo nobis officiis, error iste animi.
+              </H4>
+            </ProjectDescription>
           </ProjectPair>
         </PortfolioList>
 
@@ -108,81 +121,128 @@ class Portfolio extends Component {
           <H2>Side Project</H2>
         </SubHeader>
         <PortfolioList>
-          <Project>
-            <a href="www" target="_blank" style={{ textDecoration: 'none' }}>
-              <h3 style={{ color: 'black' }}>Libellis</h3>
-              <Img src={libellis} alt="Libellis" />
-            </a>
-            <p>tech stack: React Redux</p>
-            <li className="list-group-item text-center">
-              <a
-                href="https://github.com/libellis"
-                style={{ textDecoration: 'none', color: 'black' }}
-              >
-                <i
-                  className="fab fa-github-square fa-2x"
-                  title="GitHub"
-                  alt="github"
-                />
-                GitHub Repo{' '}
+          <ProjectPair>
+            <Project>
+              <a href="www" target="_blank" style={{ textDecoration: 'none' }}>
+                <h3 style={{ color: 'black' }}>Libellis</h3>
+                <Img src={libellis} alt="Libellis" />
               </a>
-            </li>
-          </Project>
-          <Project>dfk</Project>
+              <p>tech stack: React Redux</p>
+              <li className="list-group-item text-center">
+                <a
+                  href="https://github.com/libellis"
+                  style={{ textDecoration: 'none', color: 'black' }}
+                >
+                  <i
+                    className="fab fa-github-square fa-2x"
+                    title="GitHub"
+                    alt="github"
+                  />
+                  GitHub Repo{' '}
+                </a>
+              </li>
+            </Project>
+            <ProjectDescription>
+              <H4>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Expedita totam dolor magni iusto tempora, consequuntur numquam
+                illo ab exercitationem impedit optio, dolore laboriosam fuga
+                quaerat perferendis dolorum dicta laborum nostrum.
+              </H4>
+              <H4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                velit. Nihil architecto hic distinctio cupiditate, alias
+                provident quis perspiciatis blanditiis libero recusandae quia
+                minus nemo nobis officiis, error iste animi.
+              </H4>
+            </ProjectDescription>
+          </ProjectPair>
         </PortfolioList>
 
         <SubHeader>
           <H2>School Projects</H2>
         </SubHeader>
         <PortfolioList>
-          <Project>
-            <a
-              href="https://ronismicroblog.herokuapp.com/"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <h3 style={{ color: 'black' }}>Microblog</h3>
-              <Img src={microblog} alt="Microblog" />
-            </a>
-            <p>tech stack: React Redux</p>
-            <li className="list-group-item text-center">
+          <ProjectPair>
+            <Project>
               <a
-                href="https://github.com/Ronihe/microblog"
-                style={{ textDecoration: 'none', color: 'black' }}
+                href="https://ronismicroblog.herokuapp.com/"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
               >
-                <i
-                  className="fab fa-github-square fa-2x"
-                  title="GitHub"
-                  alt="github"
-                />
-                GitHub Repo{' '}
+                <h3 style={{ color: 'black' }}>Microblog</h3>
+                <Img src={microblog} alt="Microblog" />
               </a>
-            </li>
-          </Project>
-          <Project>
-            <a
-              href="https://ronismicroblog.herokuapp.com/"
-              target="_blank"
-              style={{ textDecoration: 'none' }}
-            >
-              <h3 style={{ color: 'black' }}>Microblog</h3>
-              <Img src={microblog} alt="Microblog" />
-            </a>
-            <p>tech stack: React Redux</p>
-            <li className="list-group-item text-center">
+              <p>tech stack: React Redux</p>
+              <li className="list-group-item text-center">
+                <a
+                  href="https://github.com/Ronihe/microblog"
+                  style={{ textDecoration: 'none', color: 'black' }}
+                >
+                  <i
+                    className="fab fa-github-square fa-2x"
+                    title="GitHub"
+                    alt="github"
+                  />
+                  GitHub Repo{' '}
+                </a>
+              </li>
+            </Project>
+            <ProjectDescription>
+              <H4>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Expedita totam dolor magni iusto tempora, consequuntur numquam
+                illo ab exercitationem impedit optio, dolore laboriosam fuga
+                quaerat perferendis dolorum dicta laborum nostrum.
+              </H4>
+              <H4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                velit. Nihil architecto hic distinctio cupiditate, alias
+                provident quis perspiciatis blanditiis libero recusandae quia
+                minus nemo nobis officiis, error iste animi.
+              </H4>
+            </ProjectDescription>
+          </ProjectPair>
+          <ProjectPair>
+            <Project>
               <a
-                href="https://github.com/Ronihe/microblog"
-                style={{ textDecoration: 'none', color: 'black' }}
+                href="https://ronismicroblog.herokuapp.com/"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
               >
-                <i
-                  className="fab fa-github-square fa-2x"
-                  title="GitHub"
-                  alt="github"
-                />
-                GitHub Repo{' '}
+                <h3 style={{ color: 'black' }}>Microblog</h3>
+                <Img src={microblog} alt="Microblog" />
               </a>
-            </li>
-          </Project>
+              <p>tech stack: React Redux</p>
+              <li className="list-group-item text-center">
+                <a
+                  href="https://github.com/Ronihe/microblog"
+                  style={{ textDecoration: 'none', color: 'black' }}
+                >
+                  <i
+                    className="fab fa-github-square fa-2x"
+                    title="GitHub"
+                    alt="github"
+                  />
+                  GitHub Repo{' '}
+                </a>
+              </li>
+            </Project>
+            <ProjectDescription>
+              <H4>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Expedita totam dolor magni iusto tempora, consequuntur numquam
+                illo ab exercitationem impedit optio, dolore laboriosam fuga
+                quaerat perferendis dolorum dicta laborum nostrum.
+              </H4>
+              <H4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+                velit. Nihil architecto hic distinctio cupiditate, alias
+                provident quis perspiciatis blanditiis libero recusandae quia
+                minus nemo nobis officiis, error iste animi.
+              </H4>
+            </ProjectDescription>
+          </ProjectPair>
         </PortfolioList>
       </main>
     );
