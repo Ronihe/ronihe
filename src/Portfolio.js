@@ -11,7 +11,7 @@ const Header = styled.header`
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-  padding-bottom: 2.074em;
+  padding-bottom: 2em;
 `;
 const SubHeader = styled.header`
   max-width: 80%;
@@ -27,6 +27,7 @@ const H2 = styled.h2`
 
 const ProjectDescription = styled.div`
   margin-top: 0px;
+  margin-left: 2em;
   @media (min-width: 768px) {
     margin-top: 65px;
   }
@@ -56,7 +57,7 @@ const Project = styled.div`
   align-items: center;
   justify-content: center;
   list-style: none;
-  padding: 2.074em 2.074em 0 2.074em;
+  padding: 2em 0 0 2em;
   color: black;
   'textdecoration': 'none';
 `;
