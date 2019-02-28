@@ -19,7 +19,7 @@ const Bio = styled.div`
 `;
 const MailTo = styled.a`
   border-bottom: 1px solid;
-  color: #83558a;
+  color: black;
   text-decoration: none;
 `;
 const Shape = styled.div`
@@ -81,8 +81,10 @@ class Home extends Component {
 
           <P>
             I just graduated from{' '}
-            <a href=" https://www.rithmschool.com/">Rithm School</a>. I am
-            looking for a full-time software engineer job now.
+            <a style={{ color: 'black' }} href=" https://www.rithmschool.com/">
+              Rithm School
+            </a>
+            . I am looking for a full-time software engineer job now.
           </P>
           <P>
             If any of the above interest you,&nbsp;
@@ -95,6 +97,7 @@ class Home extends Component {
               }}
             >
               let's chat.
+              <i class="fas fa-comments" />
             </MailTo>
           </P>
         </Bio>
