@@ -61,13 +61,15 @@ class Home extends Component {
   }
 
   render() {
+    console.log('Chatra', window.Chatra);
+
     return (
       <Wrapper className="animated fadeIn">
         <Bio>
           <P>
-            👋 I am an motivated software engineer and Licensed CPA with years
-            of experience in accounting and business operation. Worked closely
-            with Engineering teams developing business softwares.{' '}
+            👋 I am a motivated software engineer and Licensed CPA with years of
+            experience in accounting and business operation. Worked closely with
+            Engineering teams developing business softwares.{' '}
           </P>
 
           <P>
@@ -84,7 +86,16 @@ class Home extends Component {
           </P>
           <P>
             If any of the above interest you,&nbsp;
-            <MailTo href="mailto:herongrong2011@gmail.com">let's chat.</MailTo>
+            <MailTo
+              href="#"
+              onClick={e => {
+                e.preventDefault();
+                window.Chatra('show');
+                window.Chatra('openChat');
+              }}
+            >
+              let's chat.
+            </MailTo>
           </P>
         </Bio>
 
