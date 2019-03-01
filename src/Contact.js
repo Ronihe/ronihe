@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  padding-top: 1.728em;
   position: relative;
 `;
 const Links = styled.div`

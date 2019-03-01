@@ -78,7 +78,7 @@ class NavBar extends Component {
           </NavLink>
           <a
             style={{ textDecoration: 'none', color: '#83558a' }}
-            href="https://medium.com/me/stories/public"
+            href="https://medium.com/@herongrong2011"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -87,7 +87,7 @@ class NavBar extends Component {
 
           <a
             style={{ textDecoration: 'none', color: '#83558a' }}
-            href="https://docs.google.com/document/d/1wgiQESxoRdhFhbw_FV1GdobHrkXJVvKCHd96yV7LqlY/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1XLNSlrIKUnb0WORaNj3JkNmjbcaQqEqLZQa_Aemi4VQ/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
