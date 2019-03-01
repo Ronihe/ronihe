@@ -19,7 +19,6 @@ const Bio = styled.div`
 `;
 const MailTo = styled.a`
   border-bottom: 1px solid;
-  color: black;
   text-decoration: none;
 `;
 const Shape = styled.div`
@@ -81,11 +80,9 @@ class Home extends Component {
 
           <P>
             I just graduated from{' '}
-            <a style={{ color: 'black' }} href=" https://www.rithmschool.com/">
-              Rithm School
-            </a>
-            . I am looking for a full-time software engineer job now. If any of
-            the above interest you,&nbsp;
+            <a href=" https://www.rithmschool.com/">Rithm School</a>. I am
+            looking for a full-time software engineer job now. If any of the
+            above interest you,&nbsp;
             <MailTo
               href="#"
               onClick={e => {

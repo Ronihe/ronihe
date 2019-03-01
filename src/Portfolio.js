@@ -79,9 +79,15 @@ class Portfolio extends Component {
         <Header>
           <H2>Portfolio</H2>
           <H4>
-            One company project, which is a react native mobile app for IOS and
-            Android. we did about 30 apps during the My side prject, one android
-            mobile app.
+            During the 17-week in-person accelerated full stack web development
+            course, I created over 30 web and mobile applications with
+            techonologies and frameworks learned in class while pairing at
+            school. I also built a couple side projects outside of school. Prior
+            to coding boot camp, I also built{' '}
+            <a href="https://mightybillingrocks.herokuapp.com/">
+              a website site for the finance and accounting team
+            </a>{' '}
+            which contains a product margin calculator.
           </H4>
         </Header>
 
@@ -115,7 +121,7 @@ class Portfolio extends Component {
               </li>
             </Project>
             <ProjectDescription>
-              <p>tech stack: React-Native Redux</p>
+              <H4>Tech stack: React-Native, Redux, Ruby on Rails</H4>
               <H4>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Expedita totam dolor magni iusto tempora, consequuntur numquam
