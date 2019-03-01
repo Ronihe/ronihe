@@ -19,7 +19,7 @@ const PageTitle = styled.h1`
   padding-bottom: 8px;
 `;
 const PageLinks = styled.div`
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: row;
   @media screen and (max-width: 530px) {
@@ -33,13 +33,13 @@ const NavButton = styled.div`
   padding: 0;
   color: #83558a;
   font-family: 'Rubik', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
 `;
 const Logo = styled.img`
   width: 8%;
   position: absolute;
   top: 25px;
-  left: 130px;
+  left: 160px;
   animation-duration: 5s;
   animation-delay: 3s;
   animation-iteration-count: infinite;
@@ -51,7 +51,7 @@ const Logo = styled.img`
 class NavBar extends Component {
   render() {
     return (
-      <Wrapper style={{ position: 'relative', top: '25px' }}>
+      <Wrapper style={{ position: 'relative', top: '20px' }}>
         <div>
           <NavLink
             style={{
