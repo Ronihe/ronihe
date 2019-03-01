@@ -84,10 +84,8 @@ class Home extends Component {
             <a style={{ color: 'black' }} href=" https://www.rithmschool.com/">
               Rithm School
             </a>
-            . I am looking for a full-time software engineer job now.
-          </P>
-          <P>
-            If any of the above interest you,&nbsp;
+            . I am looking for a full-time software engineer job now. If any of
+            the above interest you,&nbsp;
             <MailTo
               href="#"
               onClick={e => {
