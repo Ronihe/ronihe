@@ -66,23 +66,19 @@ class Home extends Component {
       <Wrapper className="animated fadeIn">
         <Bio>
           <P>
-            👋 I am a motivated software engineer and Licensed CPA with years of
-            experience in accounting and business operation. Worked closely with
-            Engineering teams developing business softwares.{' '}
+            👋 I am a motivated software engineer and CPA with more than 6 years
+            of experience in accounting and business operations. I have worked
+            closely with Engineering teams developing business software.{' '}
           </P>
 
           <P>
-            Experienced in Javascript, Python, Git, React, Redux, React Native,
-            Flask, PostgreSQL, Node.js, Express, SQL, Git, detox. Highly
-            self-driven and really eager to learn new technologies and skill
-            sets
+            I am experienced in Javascript, Python, React, Redux, React Native,
+            Flask, PostgreSQL, Node.js, Express, SQL, Git, Jest, detox. I am
+            self-driven and eager to learn new technologies and skill sets.
           </P>
 
           <P>
-            I just graduated from{' '}
-            <a href=" https://www.rithmschool.com/">Rithm School</a>. I am
-            looking for a full-time software engineer job now. If any of the
-            above interest you,&nbsp;
+            I am fluent in Mandarin. You can reach me&nbsp;
             <MailTo
               href="#"
               onClick={e => {
@@ -91,23 +87,27 @@ class Home extends Component {
                 window.Chatra('openChat');
               }}
             >
-              let's chat.
+              here.
               <i class="fas fa-comments" />
             </MailTo>
           </P>
         </Bio>
 
         <Shape>
-          <Profile
-            src={profile}
-            alt=""
-            className="animated fadeInDown animation-delay: 1s"
-          />
-          <Coding
-            src={coding}
-            alt="coding"
-            className="animated fadeInDown animation-delay: 1.2s"
-          />
+          <a href="https://www.linkedin.com/in/ronihe/" target="_blank">
+            <Profile
+              src={profile}
+              alt=""
+              className="animated fadeInDown animation-delay: 1s"
+            />
+          </a>
+          <a href="https://angel.co/ronihe" target="_blank">
+            <Coding
+              src={coding}
+              alt="coding"
+              className="animated fadeInDown animation-delay: 1.2s"
+            />
+          </a>
         </Shape>
       </Wrapper>
     );

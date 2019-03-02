@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import microblog from './img/microblog.png';
 import groupmuse from './img/groupmuse.png';
 import libellis from './img/libellis.png';
-// import coding from './img/coding.jpg';
 
 const Header = styled.header`
   max-width: 80%;
@@ -11,31 +10,33 @@ const Header = styled.header`
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 `;
 const SubHeader = styled.header`
   max-width: 80%;
   margin-top: 0px;
-  margin-right: auto;
   margin-bottom: -35px;
-  margin-left: auto;
+  margin-left: 40%;
+  @media screen and (max-width: 568px) {
+    margin-left: 25%;
+  }
 `;
 
 const H2 = styled.h2`
   font-size: 1.728em;
+  color: black;
 `;
 
 const ProjectDescription = styled.div`
   margin-top: 0px;
   margin-left: 2em;
   @media (min-width: 768px) {
-    margin-top: 65px;
+    margin-top: 80px;
   }
 `;
 
-const H4 = styled.h4`
+const H4 = styled.p`
   line-height: 1.728em;
-  }
 `;
 
 const PortfolioList = styled.section`
@@ -59,7 +60,6 @@ const Project = styled.div`
   list-style: none;
   padding: 2em 0 0 2em;
   color: black;
-  'textdecoration': 'none';
 `;
 
 const Img = styled.img`
@@ -77,17 +77,24 @@ class Portfolio extends Component {
     return (
       <main className="animated fadeIn">
         <Header>
-          <H2>Portfolio</H2>
+          <a
+            href="https://github.com/Ronihe"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none' }}
+          >
+            <H2>Portfolio</H2>
+          </a>
           <H4>
             During the 17-week in-person accelerated full stack web development
             course, I created over 30 web and mobile applications with
             techonologies and frameworks learned in class while pairing at
             school. I also built a couple side projects outside of school. Prior
             to coding boot camp, I also built{' '}
-            <a href="https://mightybillingrocks.herokuapp.com/">
+            <a href="https://mightybillingrocks.herokuapp.com/" target="_blank">
               a website site for the finance and accounting team
             </a>{' '}
-            which contains a product margin calculator.
+            which contains a product margin calculator.{' '}
           </H4>
         </Header>
 
@@ -121,18 +128,20 @@ class Portfolio extends Component {
               </li>
             </Project>
             <ProjectDescription>
-              <H4>Tech stack: React-Native, Redux, Ruby on Rails</H4>
+              <H4>Tech Stack: &emsp;React-Native, Redux, Ruby on Rails</H4>
+
               <H4>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Expedita totam dolor magni iusto tempora, consequuntur numquam
-                illo ab exercitationem impedit optio, dolore laboriosam fuga
-                quaerat perferendis dolorum dicta laborum nostrum.
+                Groupmuse is bringing chamber music to the living room,
+                organizing intimate house shows with professional classical
+                musicians. This mobile app makes it easier for users to find
+                upcoming shows and pay for the musicians.
               </H4>
               <H4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-                velit. Nihil architecto hic distinctio cupiditate, alias
-                provident quis perspiciatis blanditiis libero recusandae quia
-                minus nemo nobis officiis, error iste animi.
+                Collaborated on a six person team in Agile/Scrum development
+                environment to refactor, debug and build new features to a live
+                React Native codebase, such as native map integration, React
+                Native accessibility features for VoiceOver (iOS) and TalkBack
+                (Android), etc.
               </H4>
             </ProjectDescription>
           </ProjectPair>
@@ -148,7 +157,7 @@ class Portfolio extends Component {
                 <h3 style={{ color: 'black' }}>Libellis</h3>
                 <Img src={libellis} alt="Libellis" />
               </a>
-              <p>tech stack: React Redux</p>
+
               <li className="list-group-item text-center">
                 <a
                   href="https://github.com/libellis"
@@ -165,16 +174,18 @@ class Portfolio extends Component {
             </Project>
             <ProjectDescription>
               <H4>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Expedita totam dolor magni iusto tempora, consequuntur numquam
-                illo ab exercitationem impedit optio, dolore laboriosam fuga
-                quaerat perferendis dolorum dicta laborum nostrum.
+                Tech Stack: &emsp;React, Redux, Node.js,Express, PostgreSQL{' '}
               </H4>
               <H4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-                velit. Nihil architecto hic distinctio cupiditate, alias
-                provident quis perspiciatis blanditiis libero recusandae quia
-                minus nemo nobis officiis, error iste animi.
+                Libellis is an interactive ranked media voting applicationwith a
+                simple API for users to create, share, and vote on surveys,
+                where each survey question would effictively be a poll. Users
+                can vote in polls by dragging and dropping streaming media to
+                vote.
+              </H4>
+              <H4>
+                Collaborated with two Rithm alumini, participated in building
+                Libellis API, front-end, adding geo-fencing to the database.{' '}
               </H4>
             </ProjectDescription>
           </ProjectPair>
@@ -224,7 +235,9 @@ class Portfolio extends Component {
               </li>
             </Project>
             <ProjectDescription>
-              <H4>Tech Stack: React Redux</H4>
+              <H4>
+                Tech Stack: &emsp;React, Redux, Node.js,Express, PostgreSQL{' '}
+              </H4>
               <H4>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Expedita totam dolor magni iusto tempora, consequuntur numquam
