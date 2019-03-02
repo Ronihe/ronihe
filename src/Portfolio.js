@@ -239,17 +239,13 @@ class Portfolio extends Component {
                 Tech Stack: &emsp;React, Redux, Node.js,Express, PostgreSQL{' '}
               </H4>
               <H4>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Expedita totam dolor magni iusto tempora, consequuntur numquam
-                illo ab exercitationem impedit optio, dolore laboriosam fuga
-                quaerat perferendis dolorum dicta laborum nostrum.
+                Built the backend and frontend for a blog posting web
+                application. Users can post, edit, comment and vote blogs.
               </H4>
-              <H4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-                velit. Nihil architecto hic distinctio cupiditate, alias
-                provident quis perspiciatis blanditiis libero recusandae quia
-                minus nemo nobis officiis, error iste animi.
-              </H4>
+              Utilized React, Router, Redux, combineReducers to build the
+              interactive front end. Thoughtfully designed the database with
+              PostgreSQL and backend with Node.js and Express.js.
+              <H4 />
             </ProjectDescription>
           </ProjectPair>
           <ProjectPair>
