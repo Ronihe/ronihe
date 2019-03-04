@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import microblog from './img/microblog.png';
 import groupmuse from './img/groupmuse.png';
 import libellis from './img/libellis.png';
+import jobly from './img/jobly.png';
 
 const Header = styled.header`
   max-width: 80%;
@@ -251,17 +252,16 @@ class Portfolio extends Component {
           <ProjectPair>
             <Project>
               <a
-                href="https://ronismicroblog.herokuapp.com/"
+                href="https://joblyfrontend.herokuapp.com/"
                 target="_blank"
                 style={{ textDecoration: 'none' }}
               >
-                <h3 style={{ color: 'black' }}>Microblog</h3>
-                <Img src={microblog} alt="Microblog" />
+                <h3 style={{ color: 'black' }}>Jobly</h3>
+                <Img src={jobly} alt="jobly" />
               </a>
-              <p>tech stack: React Redux</p>
               <li className="list-group-item text-center">
                 <a
-                  href="https://github.com/Ronihe/microblog"
+                  href="https://github.com/Ronihe/react-jobly"
                   style={{ textDecoration: 'none', color: 'black' }}
                 >
                   <i
@@ -272,19 +272,26 @@ class Portfolio extends Component {
                   GitHub Repo{' '}
                 </a>
               </li>
+              <li className="list-group-item text-center">
+                <a
+                  href="https://joblyfrontend.herokuapp.com/"
+                  style={{ textDecoration: 'none', color: 'black' }}
+                  target="_blank"
+                >
+                  <i className="fas fa-globe fa-2x" title="globe" alt="globe" />
+                  Live Site{' '}
+                </a>
+              </li>
             </Project>
             <ProjectDescription>
               <H4>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Expedita totam dolor magni iusto tempora, consequuntur numquam
-                illo ab exercitationem impedit optio, dolore laboriosam fuga
-                quaerat perferendis dolorum dicta laborum nostrum.
+                Tech Stack: &emsp;React, Redux, Node.js,Express, PostgreSQL{' '}
               </H4>
+
               <H4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-                velit. Nihil architecto hic distinctio cupiditate, alias
-                provident quis perspiciatis blanditiis libero recusandae quia
-                minus nemo nobis officiis, error iste animi.
+                Built the backend and frontend for a Job searching application.
+                Companies can post jobs and job seekers can apply for jobs and
+                see the state of their applications
               </H4>
             </ProjectDescription>
           </ProjectPair>
