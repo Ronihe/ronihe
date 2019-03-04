@@ -206,34 +206,42 @@ class Portfolio extends Component {
                 <h3 style={{ color: 'black' }}>Microblog</h3>
                 <Img src={microblog} alt="Microblog" />
               </a>
-              <li className="list-group-item text-center">
-                <a
-                  href="https://github.com/Ronihe/microblog"
-                  style={{ textDecoration: 'none', color: 'black' }}
-                  target="_blank"
-                >
-                  <i
-                    className="fab fa-github-square fa-2x"
-                    title="GitHub"
-                    alt="github"
-                  />
-                  GitHub Repo{' '}
-                </a>
-              </li>
-              <li className="list-group-item text-center">
-                <a
-                  href="https://ronismicroblog.herokuapp.com/"
-                  style={{ textDecoration: 'none', color: 'black' }}
-                  target="_blank"
-                >
-                  <i
-                    className="fas fa-globe fa-2x"
-                    title="GitHub"
-                    alt="github"
-                  />
-                  Live Site{' '}
-                </a>
-              </li>
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  justifyContent: 'space-between'
+                }}
+              >
+                <li className="list-group-item text-center">
+                  <a
+                    href="https://github.com/Ronihe/microblog"
+                    style={{ textDecoration: 'none', color: 'black' }}
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-github-square fa-2x"
+                      title="GitHub"
+                      alt="github"
+                    />
+                    GitHub Repo{' '}
+                  </a>
+                </li>
+                <li className="list-group-item text-center">
+                  <a
+                    href="https://ronismicroblog.herokuapp.com/"
+                    style={{ textDecoration: 'none', color: 'black' }}
+                    target="_blank"
+                  >
+                    <i
+                      className="fas fa-globe fa-2x"
+                      title="GitHub"
+                      alt="github"
+                    />
+                    Live Site{' '}
+                  </a>
+                </li>
+              </div>
             </Project>
             <ProjectDescription>
               <H4>
@@ -259,29 +267,41 @@ class Portfolio extends Component {
                 <h3 style={{ color: 'black' }}>Jobly</h3>
                 <Img src={jobly} alt="jobly" />
               </a>
-              <li className="list-group-item text-center">
-                <a
-                  href="https://github.com/Ronihe/react-jobly"
-                  style={{ textDecoration: 'none', color: 'black' }}
-                >
-                  <i
-                    className="fab fa-github-square fa-2x"
-                    title="GitHub"
-                    alt="github"
-                  />
-                  GitHub Repo{' '}
-                </a>
-              </li>
-              <li className="list-group-item text-center">
-                <a
-                  href="https://joblyfrontend.herokuapp.com/"
-                  style={{ textDecoration: 'none', color: 'black' }}
-                  target="_blank"
-                >
-                  <i className="fas fa-globe fa-2x" title="globe" alt="globe" />
-                  Live Site{' '}
-                </a>
-              </li>
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  justifyContent: 'space-between'
+                }}
+              >
+                <li className="list-group-item text-center">
+                  <a
+                    href="https://github.com/Ronihe/react-jobly"
+                    style={{ textDecoration: 'none', color: 'black' }}
+                  >
+                    <i
+                      className="fab fa-github-square fa-2x"
+                      title="GitHub"
+                      alt="github"
+                    />
+                    GitHub Repo{' '}
+                  </a>
+                </li>
+                <li className="list-group-item text-center">
+                  <a
+                    href="https://joblyfrontend.herokuapp.com/"
+                    style={{ textDecoration: 'none', color: 'black' }}
+                    target="_blank"
+                  >
+                    <i
+                      className="fas fa-globe fa-2x"
+                      title="globe"
+                      alt="globe"
+                    />
+                    Live Site{' '}
+                  </a>
+                </li>
+              </div>
             </Project>
             <ProjectDescription>
               <H4>
