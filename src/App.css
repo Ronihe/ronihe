@@ -2,7 +2,7 @@
   /* text-align: center; */
   margin: 0 auto;
   max-width: 1024px;
-  padding: 1.2em;
+  padding: 0 1.2em 1.2em 1.2em;
 }
 
 .App-header {

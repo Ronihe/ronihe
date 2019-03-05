@@ -7,7 +7,7 @@ import logo from './img/coffee.png';
 const Wrapper = styled.nav`
   display: flex;
   justify-content: space-between;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 `;
 
 const PageTitle = styled.h1`
@@ -19,7 +19,7 @@ const PageTitle = styled.h1`
   padding-bottom: 8px;
 `;
 const PageLinks = styled.div`
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: row;
   @media screen and (max-width: 530px) {

@@ -14,10 +14,11 @@ const Header = styled.header`
   padding-bottom: 1em;
 `;
 const SubHeader = styled.header`
+  text-align: center;
   max-width: 80%;
   margin-top: 0px;
   margin-bottom: -35px;
-  margin-left: 40%;
+  margin-left: 10%;
   @media screen and (max-width: 568px) {
     margin-left: 25%;
   }
@@ -209,8 +210,7 @@ class Portfolio extends Component {
               <div
                 style={{
                   display: 'flex',
-                  flexDirection: 'row',
-                  justifyContent: 'space-between'
+                  flexDirection: 'row'
                 }}
               >
                 <li className="list-group-item text-center">
