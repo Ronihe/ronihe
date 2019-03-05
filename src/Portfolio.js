@@ -124,8 +124,8 @@ class Portfolio extends Component {
                     className="fab fa-apple fa-2x"
                     title="GitHub"
                     alt="github"
-                  />
-                  IOS Application
+                  />{' '}
+                  IOS Application{' '}
                 </a>
               </li>
             </Project>
@@ -169,7 +169,7 @@ class Portfolio extends Component {
                     className="fab fa-github-square fa-2x"
                     title="GitHub"
                     alt="github"
-                  />
+                  />{' '}
                   GitHub Repo{' '}
                 </a>
               </li>
@@ -210,7 +210,9 @@ class Portfolio extends Component {
               <div
                 style={{
                   display: 'flex',
-                  flexDirection: 'row'
+                  flexDirection: 'row',
+                  justifyContent: 'space-between',
+                  maxWidth: '300px'
                 }}
               >
                 <li className="list-group-item text-center">
@@ -223,7 +225,7 @@ class Portfolio extends Component {
                       className="fab fa-github-square fa-2x"
                       title="GitHub"
                       alt="github"
-                    />
+                    />{' '}
                     GitHub Repo{' '}
                   </a>
                 </li>
@@ -237,7 +239,7 @@ class Portfolio extends Component {
                       className="fas fa-globe fa-2x"
                       title="GitHub"
                       alt="github"
-                    />
+                    />{' '}
                     Live Site{' '}
                   </a>
                 </li>
@@ -271,7 +273,8 @@ class Portfolio extends Component {
                 style={{
                   display: 'flex',
                   flexDirection: 'row',
-                  justifyContent: 'space-between'
+                  justifyContent: 'space-between',
+                  maxWidth: '300px'
                 }}
               >
                 <li className="list-group-item text-center">
@@ -283,7 +286,7 @@ class Portfolio extends Component {
                       className="fab fa-github-square fa-2x"
                       title="GitHub"
                       alt="github"
-                    />
+                    />{' '}
                     GitHub Repo{' '}
                   </a>
                 </li>
@@ -297,7 +300,7 @@ class Portfolio extends Component {
                       className="fas fa-globe fa-2x"
                       title="globe"
                       alt="globe"
-                    />
+                    />{' '}
                     Live Site{' '}
                   </a>
                 </li>
