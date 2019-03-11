@@ -93,7 +93,11 @@ class Portfolio extends Component {
             techonologies and frameworks learned in class while pairing at
             school. I also built a couple side projects outside of school. Prior
             to coding boot camp, I also built{' '}
-            <a href="https://mightybillingrocks.herokuapp.com/" target="_blank">
+            <a
+              href="https://mightybillingrocks.herokuapp.com/"
+              target="_blank"
+              style={{ color: '#83558a' }}
+            >
               a website site for the finance and accounting team
             </a>{' '}
             which contains a product margin calculator.{' '}
@@ -267,7 +271,7 @@ class Portfolio extends Component {
                 I wrote an{' '}
                 <a
                   href="https://medium.com/@herongrong2011/i-converted-my-react-web-app-to-react-native-mobile-app-1d014d19cbbc"
-                  style={{ color: 'black' }}
+                  style={{ color: '#83558a' }}
                   target="_blank"
                 >
                   {' '}

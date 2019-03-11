@@ -86,6 +86,7 @@ class Home extends Component {
                 window.Chatra('show');
                 window.Chatra('openChat');
               }}
+              style={{ color: '#83558a' }}
             >
               here.
               <i class="fas fa-comments" />
