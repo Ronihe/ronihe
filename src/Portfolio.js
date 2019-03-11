@@ -4,6 +4,7 @@ import microblog from './img/microblog.png';
 import groupmuse from './img/groupmuse.png';
 import libellis from './img/libellis.png';
 import jobly from './img/jobly.png';
+import paleo from './img/paleo.png';
 
 const Header = styled.header`
   max-width: 80%;
@@ -32,8 +33,8 @@ const H2 = styled.h2`
 const ProjectDescription = styled.div`
   margin-top: 0px;
   margin-left: 2em;
-  @media (min-width: 768px) {
-    margin-top: 80px;
+  @media (min-width: 868px) {
+    margin-top: 75px;
   }
 `;
 
@@ -52,7 +53,7 @@ const ProjectPair = styled.div`
   max-width: 80%;
   display: flex;
   flex-direction: column;
-  @media (min-width: 768px) {
+  @media (min-width: 868px) {
     flex-direction: row;
   }
 `;
@@ -143,11 +144,10 @@ class Portfolio extends Component {
                 upcoming shows and pay for the musicians.
               </H4>
               <H4>
-                Collaborated on a six person team in Agile/Scrum development
-                environment to refactor, debug and build new features to a live
-                React Native codebase, such as native map integration, React
-                Native accessibility features for VoiceOver (iOS) and TalkBack
-                (Android), etc.
+                Collaborated on a six person team to refactor, debug and build
+                new features to a live React Native codebase, such as native map
+                integration, React Native accessibility features for VoiceOver
+                (iOS) and TalkBack (Android), etc.
               </H4>
             </ProjectDescription>
           </ProjectPair>
@@ -204,7 +204,7 @@ class Portfolio extends Component {
                 style={{ textDecoration: 'none' }}
               >
                 <h3 style={{ color: 'black' }}>Paleo Food Checker</h3>
-                <Img src={microblog} alt="Microblog" />
+                <Img src={paleo} alt="paleo" />
               </a>
               <div
                 style={{
