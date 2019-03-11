@@ -170,7 +170,7 @@ class Portfolio extends Component {
                     title="GitHub"
                     alt="github"
                   />{' '}
-                  GitHub Repo{' '}
+                  GitHub{' '}
                 </a>
               </li>
             </Project>
@@ -188,6 +188,99 @@ class Portfolio extends Component {
               <H4>
                 Collaborated with two Rithm alumini, participated in building
                 Libellis API, front-end, adding geo-fencing to the database.{' '}
+              </H4>
+            </ProjectDescription>
+          </ProjectPair>
+
+          <ProjectPair>
+            <Project>
+              <a
+                href="https://expo.io/@ronihe/paleo-checker"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+              >
+                <h3 style={{ color: 'black' }}>Paleo Food Checker</h3>
+                <Img src={microblog} alt="Microblog" />
+              </a>
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  justifyContent: 'space-between',
+                  maxWidth: '300px'
+                }}
+              >
+                <li className="list-group-item text-center">
+                  <a
+                    href="https://github.com/Ronihe/paleo-checker-android-app"
+                    style={{ textDecoration: 'none', color: 'black' }}
+                    target="_blank"
+                  >
+                    <i
+                      className="fab fa-github-square fa-2x"
+                      title="GitHub"
+                      alt="github"
+                    />{' '}
+                    GitHub{' '}
+                  </a>
+                </li>
+                <li className="list-group-item text-center">
+                  <a
+                    href="https://expo.io/@ronihe/paleo-checker"
+                    style={{ textDecoration: 'none', color: 'black' }}
+                    target="_blank"
+                  >
+                    <i
+                      className="fas fa-globe fa-2x"
+                      title="GitHub"
+                      alt="github"
+                    />
+                    Expo
+                  </a>
+                </li>
+                <li className="list-group-item text-center">
+                  <a
+                    href="https://expo.io/artifacts/63b6f23a-0808-4667-b69b-49fac19f4396"
+                    style={{ textDecoration: 'none', color: 'black' }}
+                    target="_blank"
+                  >
+                    <i
+                      className="fas fa-globe fa-2x"
+                      title="GitHub"
+                      alt="github"
+                    />
+                    APK
+                  </a>
+                </li>
+              </div>
+            </Project>
+            <ProjectDescription>
+              <H4>Tech Stack: &emsp;React Native</H4>
+              <H4>
+                Built the android mobile application with React Native, Clarifai
+                API and Edaman API. Users can take a picture of the food or
+                import a picture from their photo library. The mobile app will
+                detect the ingredients in the picture and display the paleo
+                facts of the ingredients .
+              </H4>
+              <H4>
+                I wrote an{' '}
+                <a
+                  href="https://medium.com/@herongrong2011/i-converted-my-react-web-app-to-react-native-mobile-app-1d014d19cbbc"
+                  style={{ color: 'black' }}
+                  target="_blank"
+                >
+                  {' '}
+                  <i
+                    className="fab fa-medium"
+                    aria-hidden="true"
+                    title="medium"
+                    alt="medium"
+                  />{' '}
+                  Medium blog{' '}
+                </a>
+                about how I converted a React web application to React Native
+                mobile application.
               </H4>
             </ProjectDescription>
           </ProjectPair>
@@ -226,7 +319,7 @@ class Portfolio extends Component {
                       title="GitHub"
                       alt="github"
                     />{' '}
-                    GitHub Repo{' '}
+                    GitHub{' '}
                   </a>
                 </li>
                 <li className="list-group-item text-center">
@@ -239,8 +332,8 @@ class Portfolio extends Component {
                       className="fas fa-globe fa-2x"
                       title="GitHub"
                       alt="github"
-                    />{' '}
-                    Live Site{' '}
+                    />
+                    Site
                   </a>
                 </li>
               </div>
@@ -286,8 +379,8 @@ class Portfolio extends Component {
                       className="fab fa-github-square fa-2x"
                       title="GitHub"
                       alt="github"
-                    />{' '}
-                    GitHub Repo{' '}
+                    />
+                    GitHub
                   </a>
                 </li>
                 <li className="list-group-item text-center">
@@ -300,8 +393,8 @@ class Portfolio extends Component {
                       className="fas fa-globe fa-2x"
                       title="globe"
                       alt="globe"
-                    />{' '}
-                    Live Site{' '}
+                    />
+                    Site
                   </a>
                 </li>
               </div>
