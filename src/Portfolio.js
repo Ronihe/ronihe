@@ -249,7 +249,7 @@ class Portfolio extends Component {
                     target="_blank"
                   >
                     <i
-                      className="fas fa-globe fa-2x"
+                      className="fab fa-android fa-2x"
                       title="GitHub"
                       alt="github"
                     />
