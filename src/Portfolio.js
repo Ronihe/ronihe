@@ -97,6 +97,7 @@ class Portfolio extends Component {
             <a
               href="https://mightybillingrocks.herokuapp.com/"
               target="_blank"
+              rel="noopener noreferrer"
               style={{ color: '#83558a' }}
             >
               a website site for the finance and accounting team
@@ -114,6 +115,7 @@ class Portfolio extends Component {
               <a
                 href="https://itunes.apple.com/us/app/groupmuse/id942675649"
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ textDecoration: 'none' }}
               >
                 <h3 style={{ color: 'black' }}>Groupmuse</h3>
@@ -124,6 +126,7 @@ class Portfolio extends Component {
                   href="https://itunes.apple.com/us/app/groupmuse/id942675649"
                   style={{ textDecoration: 'none', color: 'black' }}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i
                     className="fab fa-apple fa-2x"
@@ -159,7 +162,12 @@ class Portfolio extends Component {
         <PortfolioList>
           <ProjectPair>
             <Project>
-              <a href="www" target="_blank" style={{ textDecoration: 'none' }}>
+              <a
+                href="www"
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+                rel="noopener noreferrer"
+              >
                 <h3 style={{ color: 'black' }}>Libellis</h3>
                 <Img src={libellis} alt="Libellis" />
               </a>
@@ -201,6 +209,7 @@ class Portfolio extends Component {
               <a
                 href="https://expo.io/@ronihe/paleo-checker"
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ textDecoration: 'none' }}
               >
                 <h3 style={{ color: 'black' }}>Paleo Food Checker</h3>
@@ -219,6 +228,7 @@ class Portfolio extends Component {
                     href="https://github.com/Ronihe/paleo-checker-android-app"
                     style={{ textDecoration: 'none', color: 'black' }}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i
                       className="fab fa-github-square fa-2x"
@@ -233,6 +243,7 @@ class Portfolio extends Component {
                     href="https://expo.io/@ronihe/paleo-checker"
                     style={{ textDecoration: 'none', color: 'black' }}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i
                       className="fas fa-globe fa-2x"
@@ -247,6 +258,7 @@ class Portfolio extends Component {
                     href="https://expo.io/artifacts/63b6f23a-0808-4667-b69b-49fac19f4396"
                     style={{ textDecoration: 'none', color: 'black' }}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i
                       className="fab fa-android fa-2x"
@@ -273,6 +285,7 @@ class Portfolio extends Component {
                   href="https://medium.com/@herongrong2011/i-converted-my-react-web-app-to-react-native-mobile-app-1d014d19cbbc"
                   style={{ color: '#83558a' }}
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {' '}
                   <i
@@ -299,6 +312,7 @@ class Portfolio extends Component {
               <a
                 href="https://ronismicroblog.herokuapp.com/"
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ textDecoration: 'none' }}
               >
                 <h3 style={{ color: 'black' }}>Microblog</h3>
@@ -317,6 +331,7 @@ class Portfolio extends Component {
                     href="https://github.com/Ronihe/microblog"
                     style={{ textDecoration: 'none', color: 'black' }}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i
                       className="fab fa-github-square fa-2x"
@@ -331,6 +346,7 @@ class Portfolio extends Component {
                     href="https://ronismicroblog.herokuapp.com/"
                     style={{ textDecoration: 'none', color: 'black' }}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i
                       className="fas fa-globe fa-2x"
@@ -361,6 +377,7 @@ class Portfolio extends Component {
               <a
                 href="https://joblyfrontend.herokuapp.com/"
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ textDecoration: 'none' }}
               >
                 <h3 style={{ color: 'black' }}>Jobly</h3>
@@ -392,6 +409,7 @@ class Portfolio extends Component {
                     href="https://joblyfrontend.herokuapp.com/"
                     style={{ textDecoration: 'none', color: 'black' }}
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i
                       className="fas fa-globe fa-2x"

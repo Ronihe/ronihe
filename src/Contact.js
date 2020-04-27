@@ -31,12 +31,18 @@ class Contact extends Component {
     return (
       <Wrapper>
         <Links>
-          <Link href="https://github.com/Ronihe" target="_blank" alt="github">
+          <Link
+            href="https://github.com/Ronihe"
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="github"
+          >
             <i class="fab fa-github animated SlideOutUp" />
           </Link>
           <Link
             href="https://www.linkedin.com/in/ronihe/"
             target="_blank"
+            rel="noopener noreferrer"
             alt="LinkedIn"
           >
             <i class="fab fa-linkedin-in" />
@@ -44,11 +50,17 @@ class Contact extends Component {
           <Link
             href="https://twitter.com/herongrong2011"
             target="_blank"
+            rel="noopener noreferrer"
             alt="twitter"
           >
             <i class="fab fa-twitter" />
           </Link>
-          <Link href="https://angel.co/ronihe" target="_blank" alt="AngelList">
+          <Link
+            href="https://angel.co/ronihe"
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="AngelList"
+          >
             <i class="fab fa-angellist" />
           </Link>
         </Links>

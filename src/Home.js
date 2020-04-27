@@ -98,14 +98,22 @@ class Home extends Component {
         </Bio>
 
         <Shape>
-          <a href="https://www.linkedin.com/in/ronihe/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/ronihe/"
+            target="_blank"
+            rel="noopener noreferer"
+          >
             <Profile
               src={profile}
               alt=""
               className="animated fadeInDown animation-delay: 1s"
             />
           </a>
-          <a href="https://angel.co/ronihe" target="_blank">
+          <a
+            href="https://angel.co/ronihe"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Coding
               src={coding}
               alt="coding"
