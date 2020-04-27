@@ -66,8 +66,11 @@ class Home extends Component {
       <Wrapper className="animated fadeIn">
         <Bio>
           <P>
-            👋 I am a motivated software engineer and CPA with more than 6 years
-            of experience in accounting and business operations. I have worked
+            <span role="img" aria-label="Hi">
+              👋{' '}
+            </span>{' '}
+            I am a motivated software engineer and CPA with more than 6 years of
+            experience in accounting and business operations. I have worked
             closely with Engineering teams developing business software.{' '}
           </P>
 
